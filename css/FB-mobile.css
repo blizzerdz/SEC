@@ -127,7 +127,7 @@ aside .aside-nav-handle {
    
   
 
-   @media (max-width:500px) {
+@media (max-width: 768px)  {
   nav[role="navigation"] {
     width: 300px;
     height: 100%;
@@ -228,103 +228,7 @@ width: 52px;
 }
      }
    
-   @media screen and (device-width: 320px) and (device-height: 480px)  {
-  nav[role="navigation"] {
-    width: 250px;
-    height: 100%;
-    position: fixed;
-    -moz-transform: translateX(-240px);
-    -ms-transform: translateX(-240px);
-    -o-transform: translateX(-240px);
-    -webkit-transform: translateX(-240px);
-    transform: translateX(-240px);
-    -moz-transition: 0.5s all ease;
-    -o-transition: 0.5s all ease;
-    -webkit-transition: 0.5s all ease;
-    transition: 0.5s all ease;
-background-color: #31394a;
-  }
-  nav[role="navigation"].active {
-    -moz-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    -o-transform: translateX(0px);
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px);
-  }
-  nav[role="navigation"] .mobile-handle {
-    display: block;
-    position: absolute;
-    right: -35px;
-    width: 35px;
-    height: 35px;
-    background: #444;
-    color: white;
-    cursor: pointer;
-    background: transparent;
-
-       z-index:999;
-  }
-     #header_wrapper{z-index:1;zoom:0.5;background: -webkit-gradient(linear, center top, center bottom, from(#738aba), to(#2c4987));
-background: -webkit-linear-gradient(#738aba, #2c4987);
-border-bottom: 1px solid #111a33;
--webkit-box-shadow: inset 0 1px 1px -1px #fff;
--webkit-box-sizing: border-box;
-height: 43px;
-position: fixed;
-width: 100%;
-z-index: 12;}
-     #header #logo {display:none;}
-     #header #menu_user{display:inline-block;
-       zoom:0.1;}
-     #header #menu_user {margin-left:450px;}
-     #menu_user .composer-link, #menu_user .notifications-link {margin-left:0px;}
-     #menu_mobile{display:none;}
-     #content_wrapper,#footer_wrapper{min-width:100%;}
-     #content {padding-left:0px;width:auto;}
-     .activity_composer_input {display:none;}
-     .activity_composer+.activity {margin-top:7.5em;}
-     #menu {display:none;}
-     #categories {display:none;}
-     .shortcuts {display:none;}
-     .main {width:100%;
-       margin-left:0px;
-zoom:0.1;}
-.activity>li {zoom:0.1;}
-     .btn {background:transparent;font-size: .4em;
-       font-weight:bold;border:0px;}
-     .btn span.label-text {display:none;}
-     .activity_composer+.activity {width:100%;}
-  nav[role="navigation"] 
-     .composer.modal {zoom:0.1;}
-     .mobile .composer.modal {zoom:0.1;}
-     .mobile-handle:before {
- content: "";
-position: absolute;
-top: 5px;
-left: 5px;
-/* color: white; */
-background-image: url(http://se5revolution.s3.amazonaws.com/uploads/1120/773858.png);
-background-repeat: no-repeat;
-background-size: auto;
-background-position: -194px -78px;
-display: block;
-height: 42px;
-width: 52px;
-  }
-
-  .mobile nav[role="navigation"] ul li {
-    float: none;
-    width: auto;
-       zoom:0.2;
-  }
-  nav[role="navigation"] ul li a {
-    display: block;
-  }
-     nav[role="navigation"] ul li {
-      
-  border-left: 1px solid transparent;
-}
-     }
+  
    
    
 @media (max-width: 500px) {
