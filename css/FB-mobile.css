@@ -175,7 +175,7 @@ width: 100%;
 z-index: 12;}
      #header #logo {display:none;}
      #header #menu_user{display:inline-block;
-       zoom:0.4;}
+      ;}
      #header #menu_user {margin-left:auto;display:inline-block;margin-top:20px;}
      #menu_user .composer-link, #menu_user .notifications-link {margin-left:0px;}
      #menu_mobile{display:none;}
