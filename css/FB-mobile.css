@@ -187,7 +187,7 @@ z-index: 12;}
      #categories {display:none;}
      .shortcuts {display:none;}
 
-     .btn {background:transparent;font-size: 1.4em;
+     .btn {background:transparent;font-size: .4em;
        font-weight:bold;border:0px;}
      .btn span.label-text {display:none;}
      .activity_composer+.activity {width:100%;}
