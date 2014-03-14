@@ -338,29 +338,6 @@ input, textarea {
     display: none
 }
 
-#header_wrapper, #content_wrapper, #footer_wrapper {
-    min-width: 25em
-}
-
-#header_wrapper {
-    z-index: 9999;
-    width: 100%;
-    height: auto;
-    min-height: 3em;
-    background: #fff;
-    background: -moz-linear-gradient(top, #fff 0, #ddd 3.2em);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(3.2em, #ddd));
-    background: -webkit-linear-gradient(top, #fff 0, #ddd 3.2em);
-    background: -o-linear-gradient(top, #fff 0, #ddd 3.2em);
-    background: -ms-linear-gradient(top, #fff 0, #ddd 3.2em);
-    background: linear-gradient(to bottom, #fff 0, #ddd 3.2em);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dddddd', GradientType=0);
-    box-shadow: 0 0 .1em rgba(0, 0, 0, 0.8)
-}
-
-#header {
-    min-height: 3em
-}
 
 #header .right {
     position: relative;
