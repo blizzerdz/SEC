@@ -227,7 +227,7 @@ width: 52px;
 
 .main, .fg {
     padding: 0;
-   zoom:0.5; 
+   zoom:1; 
    
 }
 
@@ -449,8 +449,8 @@ li {
     overflow: hidden;
     font-size: 0.5em;
     line-height: 1.3em;
-  zoom:0.5;
-  width:50%;
+  zoom:0.8;
+ 
 }
 
 .activity>li+li {
