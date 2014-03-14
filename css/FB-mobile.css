@@ -444,7 +444,7 @@ li {
 }
 
 .activity>li {
-    padding: 1em 1em;
+    padding: 0em 0em;
     overflow: hidden;
     font-size: 0.5em;
     line-height: 1.3em;
