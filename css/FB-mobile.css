@@ -227,7 +227,8 @@ width: 52px;
 
 .main, .fg {
     padding: 0;
-    
+   width:95%;
+   zoom:1; 
    
 }
 
