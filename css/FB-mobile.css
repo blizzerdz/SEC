@@ -185,10 +185,9 @@ z-index: 12;}
      #menu {display:none;}
      #categories {display:none;}
      .shortcuts {display:none;}
-     .main {width:100%;
-       margin-left:0px;
-zoom:0.27
-         ;}
+  .main, .fg {
+    padding: 0
+}
      .btn {background:transparent;font-size: 1.4em;
        font-weight:bold;border:0px;}
      .btn span.label-text {display:none;}
