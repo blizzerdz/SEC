@@ -185,16 +185,14 @@ z-index: 12;}
      #menu {display:none;}
      #categories {display:none;}
      .shortcuts {display:none;}
-  .main, .fg {
-    padding: 0
-}
+
      .btn {background:transparent;font-size: 1.4em;
        font-weight:bold;border:0px;}
      .btn span.label-text {display:none;}
      .activity_composer+.activity {width:100%;}
   nav[role="navigation"] 
      .composer.modal {zoom:0.4;}
-     .mobile .composer.modal {zoom:0.3;}
+ 
      nav[role="navigation"].active #menu{zoom:2.3;display:block;
 width:100%;
 top:-30px;}
