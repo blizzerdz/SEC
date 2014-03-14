@@ -176,7 +176,7 @@ z-index: 12;}
      #header #logo {display:none;}
      #header #menu_user{display:inline-block;
       ;}
-     #header #menu_user {margin-left:auto;display:inline-block;margin-top:20px;}
+     #header #menu_user {margin-left:auto;display:inline-block;margin-top:10px;}
      #menu_user .composer-link, #menu_user .notifications-link {margin-left:0px;}
      #menu_mobile{display:none;}
      #content_wrapper,#footer_wrapper{min-width:100%;}
@@ -187,12 +187,12 @@ z-index: 12;}
      #categories {display:none;}
      .shortcuts {display:none;}
 
-     .btn {background:transparent;font-size: .4em;
+     .btn {background:transparent;font-size: .3em;
        font-weight:bold;border:0px;}
      .btn span.label-text {display:none;}
      .activity_composer+.activity {width:100%;}
   nav[role="navigation"] 
-     .composer.modal {zoom:0.4;}
+     
  
      nav[role="navigation"].active #menu{zoom:2.3;display:block;
 width:100%;
