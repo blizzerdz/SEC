@@ -448,7 +448,7 @@ li {
     overflow: hidden;
     font-size: 0.5em;
     line-height: 1.3em;
-    zoom: 0.1;
+    zoom: 0.05;
 }
 
 .activity>li+li {
