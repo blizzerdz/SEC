@@ -288,8 +288,7 @@ z-index: 12;}
      .shortcuts {display:none;}
      .main {width:100%;
        margin-left:0px;
-zoom:0.1
-         ;}
+zoom:0.1;}
      .btn {background:transparent;font-size: .4em;
        font-weight:bold;border:0px;}
      .btn span.label-text {display:none;}
@@ -298,13 +297,18 @@ zoom:0.1
      .composer.modal {zoom:0.1;}
      .mobile .composer.modal {zoom:0.1;}
      .mobile-handle:before {
-    content: "\2261";
-    position: absolute;
-    top: -5px;
-    left: 5px;
-    color: white;
-       zoom:0.5;
-    font-size: 1.5em;
+ content: "";
+position: absolute;
+top: 5px;
+left: 5px;
+/* color: white; */
+background-image: url(http://se5revolution.s3.amazonaws.com/uploads/1120/773858.png);
+background-repeat: no-repeat;
+background-size: auto;
+background-position: -194px -78px;
+display: block;
+height: 42px;
+width: 52px;
   }
 
   .mobile nav[role="navigation"] ul li {
