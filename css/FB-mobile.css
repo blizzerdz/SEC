@@ -226,6 +226,438 @@ width: 52px;
        zoom:0.3;
   border-left: 1px solid transparent;
 }
+
+/**Activity Stuff**/
+.activity>li {
+    padding: 1em 1em;
+    overflow: hidden;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    zoom: 0.1;
+}
+
+.activity>li+li {
+    padding-top: 0
+}
+
+.activity .member_photo {
+    display: block;
+    float: left;
+    width: 3em;
+    height: 3em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: .25em
+}
+
+.activity .activity_inner {
+    display: block
+}
+
+.activity .activity_inner2 {
+    display: block;
+    padding-top: .1em;
+    padding-left: .75em;
+    overflow: hidden
+}
+
+.activity .member_name {
+    font-size: 1em;
+    font-weight: bold
+}
+
+.activity .post_message {
+    display: block;
+    padding: .25em 0;
+    font-size: 1em
+}
+
+.activity .activity_like .post_message:before {
+    content: '"'
+}
+
+.activity .activity_like .post_message:after {
+    content: '"'
+}
+
+.activity .action {
+    color: #999
+}
+
+.activity .activity_info {
+    display: block;
+    margin-top: .5em;
+    font-size: .9em;
+    color: #aaa
+}
+
+.activity .activity_info>ul>li {
+    display: inline;
+    color: #aaa
+}
+
+.activity .activity_info>ul>li a {
+    color: #999
+}
+
+.activity .activity_info .sep:after {
+    padding: 0 3px;
+    content: " •";
+    opacity: .1
+}
+
+.activity .activity_info .activity_vote a:hover {
+    color: #555;
+    text-decoration: none
+}
+
+.activity .activity_info .activity_vote a i {
+    margin-left: 2px;
+    opacity: .3
+}
+
+.activity .activity_info .activity_vote a:hover i {
+    opacity: .7
+}
+
+.activity .activity_info .activity_vote a.active i {
+    opacity: 1
+}
+
+.activity .activity_info .activity_vote a.active span {
+    font-weight: bold;
+    color: #555
+}
+
+.activity .activity_info .activity_vote .score_sum {
+    display: none
+}
+
+.activity .activity_info .activity_vote .vote_down {
+    margin-left: 2px
+}
+
+.activity .post_title {
+    line-height: 1.3em
+}
+
+.activity_post .action, .activity_post .post_title {
+    display: none
+}
+
+.activity .preview {
+    margin-top: .5em;
+    margin-bottom: .1em;
+    overflow: hidden;
+    clear: both
+}
+
+.activity .preview>.wrapper {
+    padding: .5em;
+    overflow: hidden;
+    font-size: .9em;
+    line-height: 1.3em;
+    background-color: #f5f5f5
+}
+
+.activity .preview .preview_photo {
+    display: block;
+    float: left;
+    margin-right: .5em;
+    overflow: hidden
+}
+
+.activity .preview .preview_inner {
+    overflow: hidden
+}
+
+.activity .preview .preview_title {
+    font-weight: bold
+}
+
+.activity .preview.file .preview_title i {
+    display: none
+}
+
+.activity .preview .preview_body {
+    font-size: .9em;
+    line-height: 1.4em
+}
+
+.activity .preview .preview_title+.preview_body {
+    margin-top: .5em
+}
+
+.activity .vote {
+    display: none
+}
+
+.activity .likes_list {
+    margin-top: .5em;
+    font-size: .9em;
+    background-color: #f5f5f5
+}
+
+.activity .likes_list+.comments_wrapper {
+    margin-top: .1em
+}
+
+.activity .comments_wrapper {
+    margin-top: .5em
+}
+
+.activity .comment .likes_list {
+    font-size: 1em
+}
+
+.activity .comment .comment_likes {
+    display: none
+}
+
+.activity .comment .comment_reply {
+    display: none
+}
+
+.activity .comments_list>li {
+    font-size: .9em
+}
+
+.activity_composer {
+    padding: .5em;
+    background-color: #f5f5f5;
+    border: 1px solid #eee
+}
+
+.activity_composer+.activity {
+    margin-top: 1em
+}
+
+.activity_composer .alert {
+    margin-bottom: 5px
+}
+
+.activity_composer_input {
+    padding: .5em;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: .25em
+}
+
+.activity_composer_input textarea {
+    width: 98%;
+    height: 1.5em;
+    margin-bottom: 0;
+    border: 0;
+    box-shadow: none;
+    resize: none
+}
+
+.activity_composer.active textarea {
+    height: 3em;
+    overflow: hidden;
+    font-size: 1.2em
+}
+
+.activity_composer_submit {
+    display: none;
+    margin-top: 5px
+}
+
+.activity_composer.active .activity_composer_submit {
+    display: inherit
+}
+
+.activity_composer .loading-image {
+    margin-left: 10px
+}
+
+.activity_composer_preview {
+    padding: 0 0 10px 0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    border: 2px dashed #ddd
+}
+
+.activity_composer_preview .activity_composer_preview_meta {
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+    overflow: hidden
+}
+
+.activity_composer_preview .image-chooser {
+    display: block;
+    float: left;
+    margin: 0;
+    margin-left: 10px
+}
+
+.activity_composer_preview .activity_composer_preview_menu {
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee
+}
+
+.activity_composer_preview .activity_composer_preview_menu_title {
+    font-weight: bold
+}
+
+.activity_composer_preview .activity_composer_preview_menu_close {
+    display: inline-block;
+    float: right;
+    width: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    opacity: .5
+}
+
+.activity_composer_preview .activity_composer_preview_title, .activity_composer_preview .activity_composer_preview_description {
+    padding: 2px 5px;
+    margin-bottom: 4px;
+    line-height: 1.4em;
+    color: #999;
+    white-space: pre-wrap;
+    cursor: pointer;
+    border-radius: 5px
+}
+
+.activity_composer_preview .activity_composer_preview_title {
+    font-size: 1.1em
+}
+
+.activity_composer_preview textarea {
+    width: 95%;
+    padding: 2px 5px;
+    overflow: hidden;
+    font-size: .8em;
+    line-height: 1.4em
+}
+
+.activity_composer_preview .activity_composer_preview_title {
+    font-weight: bold;
+    color: #666
+}
+
+.activity_composer_preview .image-chooser .images {
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #ddd
+}
+
+.activity_composer_preview .image-chooser .control-label {
+    display: none
+}
+
+.activity_composer_preview .image-chooser .checkbox {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: .9em
+}
+
+.activity_composer .overlay {
+    display: none
+}
+
+.activity_composer.dragging-over-window .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2em;
+    color: #aaa;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+    border: 3px dashed #ccc;
+    border-radius: 4px 4px 4px 4px
+}
+
+.activity_composer .activity_composer_file {
+    position: relative;
+    min-width: 12px;
+    margin-left: .5em;
+    overflow: hidden;
+    cursor: pointer;
+    background-image: url("../images/attach.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 75%
+}
+
+.activity_composer .activity_composer_file input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 200px;
+    height: 100%;
+    cursor: pointer;
+    border: 50px solid transparent;
+    opacity: 0;
+    transform: translate(-1000px, 0) scale(10)
+}
+
+.activity_composer .activity_composer_file input[type="file"]:hover {
+    cursor: pointer
+}
+
+.activity_composer .publish {
+    padding-right: 2em;
+    margin-left: .5em;
+    background-position: 1.75em center
+}
+
+.activity_composer .publish.twitter {
+    background-image: url("../images/mobile_twitter.png")
+}
+
+.activity_composer .publish.facebook {
+    background-image: url("../images/mobile_facebook.png")
+}
+
+.activity_composer .anonymous>span {
+    padding-left: .25em
+}
+
+.activity_composer_submit .options {
+    overflow: hidden
+}
+
+.activity_composer_submit .btn-primary[type="submit"], .activity_composer_submit .activity_composer_file,
+.activity_composer_submit .activity-composer-progress {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    font-size: 1.2em;
+    font-weight: bold
+}
+
+.activity-composer-progress {
+    padding-top: 4px
+}
+
+.activity_composer_submit .loading-image {
+    float: left;
+    padding-top: 7px;
+    margin-left: 6px
+}
+
+.posts>li {
+    padding: .75em;
+    border-bottom: .3em solid rgba(0, 0, 0, 0.05)
+}
      }
    
   
